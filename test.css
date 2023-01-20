@@ -1,0 +1,40 @@
+/*
+ * Project: hello-theme-child
+ * File: test.css
+ * File Created: 2023-01-19, 21:59:49
+ * Author: Wojciech Sobczak (wsobczak@gmail.com)
+ * -----
+ * Last Modified: 2023-01-20, 9:57:34
+ * Modified By: Wojciech Sobczak (wsobczak@gmail.com)
+ * -----
+ * Copyright © 2021 - 2023 by vbert
+ */
+html {
+    line-height: 1.15;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    width: 570px;
+    margin: 50px 0;
+    padding: 40px 50px 50px 50px;
+    background-color: #fff;
+}

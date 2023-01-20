@@ -1,0 +1,69 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: vbert
+Author URI: https://vbert.pl
+Template: hello-elementor
+Version: 1.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+:root {
+    --vbert-border-color: #e7e7e7;
+}
+
+.property-container,
+.property-highlights-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.property-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.property-highlights-container .property-item {
+    flex: auto;
+    align-self: stretch;
+    margin: .25rem;
+    padding: .5rem;
+    border: 1px solid var(--vbert-border-color);
+}
+
+.ico {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ico-24 {
+    width: 24px;
+    height: 24px;
+}
+.ico-32 {
+    width: 32px;
+    height: 32px;
+}
+.ico-50 {
+    width: 50px;
+    height: 50px;
+}
+.ico-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.ico-alarm-clock {background-image: url('assets/img/icons8/gray/alarm-clock.png')}
+
+.ico-alarm-clock-y {background-image: url('assets/img/icons8/yellow/alarm-clock.png')}
