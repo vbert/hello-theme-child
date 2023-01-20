@@ -12,7 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 :root {
-    --vbert-border-color: #e7e7e7;
+    --vb-border-color: #e7e7e7;
 }
 
 .property-container,
@@ -34,19 +34,42 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .property-highlights-container .property-item {
     flex: auto;
     align-self: stretch;
-    margin: .25rem;
-    padding: .5rem;
-    border: 1px solid var(--vbert-border-color);
+    margin: .32rem;
+    padding: .72rem 1rem;
+    border: 1px solid var(--vb-border-color);
+}
+
+.property-highlights-container .property-title {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.property-container .property-item {
+    margin: 0 .72rem .72rem 0;
+}
+
+.property-container .property-ico {
+    flex: auto;
+    align-self: stretch;
+    margin-right: .32rem;
+}
+
+.property-container .property-title {
+    font-size: 1rem;
 }
 
 .ico {
     display: flex;
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.ico-16 {
+    width: 16px;
+    height: 16px;
+}
 .ico-24 {
     width: 24px;
     height: 24px;
@@ -65,5 +88,75 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 }
 
 .ico-alarm-clock {background-image: url('assets/img/icons8/gray/alarm-clock.png')}
+.ico-balcony {background-image: url('assets/img/icons8/gray/balcony.png')}
+.ico-bathroom {background-image: url('assets/img/icons8/gray/bathroom.png')}
+.ico-bedroom {background-image: url('assets/img/icons8/gray/bedroom.png')}
+.ico-bottle-of-water {background-image: url('assets/img/icons8/gray/bottle-of-water.png')}
+.ico-chair {background-image: url('assets/img/icons8/gray/chair.png')}
+.ico-coffee-maker {background-image: url('assets/img/icons8/gray/coffee-maker.png')}
+.ico-cooker {background-image: url('assets/img/icons8/gray/cooker.png')}
+.ico-cooking-pot {background-image: url('assets/img/icons8/gray/cooking-pot.png')}
+.ico-cooling {background-image: url('assets/img/icons8/gray/cooling.png')}
+.ico-cruise-control-on {background-image: url('assets/img/icons8/gray/cruise-control-on.png')}
+.ico-customer {background-image: url('assets/img/icons8/gray/customer.png')}
+.ico-cutlery {background-image: url('assets/img/icons8/gray/cutlery.png')}
+.ico-desk {background-image: url('assets/img/icons8/gray/desk.png')}
+.ico-dishes-shelf {background-image: url('assets/img/icons8/gray/dishes-shelf.png')}
+.ico-double-bed {background-image: url('assets/img/icons8/gray/double-bed.png')}
+.ico-extrabeds {background-image: url('assets/img/icons8/gray/extrabeds.png')}
+.ico-family {background-image: url('assets/img/icons8/gray/family.png')}
+.ico-fridge {background-image: url('assets/img/icons8/gray/fridge.png')}
+.ico-frying-pan {background-image: url('assets/img/icons8/gray/frying-pan.png')}
+.ico-hair-dryer {background-image: url('assets/img/icons8/gray/hair-dryer.png')}
+.ico-iron {background-image: url('assets/img/icons8/gray/iron.png')}
+.ico-kitchen-room {background-image: url('assets/img/icons8/gray/kitchen-room.png')}
+.ico-lake {background-image: url('assets/img/icons8/gray/lake.png')}
+.ico-rug {background-image: url('assets/img/icons8/gray/rug.png')}
+.ico-safe {background-image: url('assets/img/icons8/gray/safe.png')}
+.ico-shower {background-image: url('assets/img/icons8/gray/shower.png')}
+.ico-soap-dispenser {background-image: url('assets/img/icons8/gray/soap-dispenser.png')}
+.ico-surface {background-image: url('assets/img/icons8/gray/surface.png')}
+.ico-table-top-view {background-image: url('assets/img/icons8/gray/table-top-view.png')}
+.ico-table {background-image: url('assets/img/icons8/gray/table.png')}
+.ico-three-seater-sofa {background-image: url('assets/img/icons8/gray/three-seater-sofa.png')}
+.ico-towel {background-image: url('assets/img/icons8/gray/towel.png')}
+.ico-tv {background-image: url('assets/img/icons8/gray/tv.png')}
+.ico-wardrobe {background-image: url('assets/img/icons8/gray/wardrobe.png')}
+.ico-wifi {background-image: url('assets/img/icons8/gray/wifi.png')}
 
 .ico-alarm-clock-y {background-image: url('assets/img/icons8/yellow/alarm-clock.png')}
+.ico-balcony-y {background-image: url('assets/img/icons8/yellow/balcony.png')}
+.ico-bathroom-y {background-image: url('assets/img/icons8/yellow/bathroom.png')}
+.ico-bedroom-y {background-image: url('assets/img/icons8/yellow/bedroom.png')}
+.ico-bottle-of-water-y {background-image: url('assets/img/icons8/yellow/bottle-of-water.png')}
+.ico-chair-y {background-image: url('assets/img/icons8/yellow/chair.png')}
+.ico-coffee-maker-y {background-image: url('assets/img/icons8/yellow/coffee-maker.png')}
+.ico-cooker-y {background-image: url('assets/img/icons8/yellow/cooker.png')}
+.ico-cooking-pot-y {background-image: url('assets/img/icons8/yellow/cooking-pot.png')}
+.ico-cooling-y {background-image: url('assets/img/icons8/yellow/cooling.png')}
+.ico-cruise-control-on-y {background-image: url('assets/img/icons8/yellow/cruise-control-on.png')}
+.ico-customer-y {background-image: url('assets/img/icons8/yellow/customer.png')}
+.ico-cutlery-y {background-image: url('assets/img/icons8/yellow/cutlery.png')}
+.ico-desk-y {background-image: url('assets/img/icons8/yellow/desk.png')}
+.ico-dishes-shelf-y {background-image: url('assets/img/icons8/yellow/dishes-shelf.png')}
+.ico-double-bed-y {background-image: url('assets/img/icons8/yellow/double-bed.png')}
+.ico-extrabeds-y {background-image: url('assets/img/icons8/yellow/extrabeds.png')}
+.ico-family-y {background-image: url('assets/img/icons8/yellow/family.png')}
+.ico-fridge-y {background-image: url('assets/img/icons8/yellow/fridge.png')}
+.ico-frying-pan-y {background-image: url('assets/img/icons8/yellow/frying-pan.png')}
+.ico-hair-dryer-y {background-image: url('assets/img/icons8/yellow/hair-dryer.png')}
+.ico-iron-y {background-image: url('assets/img/icons8/yellow/iron.png')}
+.ico-kitchen-room-y {background-image: url('assets/img/icons8/yellow/kitchen-room.png')}
+.ico-lake-y {background-image: url('assets/img/icons8/yellow/lake.png')}
+.ico-rug-y {background-image: url('assets/img/icons8/yellow/rug.png')}
+.ico-safe-y {background-image: url('assets/img/icons8/yellow/safe.png')}
+.ico-shower-y {background-image: url('assets/img/icons8/yellow/shower.png')}
+.ico-soap-dispenser-y {background-image: url('assets/img/icons8/yellow/soap-dispenser.png')}
+.ico-surface-y {background-image: url('assets/img/icons8/yellow/surface.png')}
+.ico-table-top-view-y {background-image: url('assets/img/icons8/yellow/table-top-view.png')}
+.ico-table-y {background-image: url('assets/img/icons8/yellow/table.png')}
+.ico-three-seater-sofa-y {background-image: url('assets/img/icons8/yellow/three-seater-sofa.png')}
+.ico-towel-y {background-image: url('assets/img/icons8/yellow/towel.png')}
+.ico-tv-y {background-image: url('assets/img/icons8/yellow/tv.png')}
+.ico-wardrobe-y {background-image: url('assets/img/icons8/yellow/wardrobe.png')}
+.ico-wifi-y {background-image: url('assets/img/icons8/yellow/wifi.png')}
