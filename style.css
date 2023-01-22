@@ -12,7 +12,9 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 :root {
+    --vb-box-shadow-color: #999;
     --vb-border-color: #e7e7e7;
+    --vb-border-color-hover: #c5a64d;
 }
 
 .property-container,
@@ -34,7 +36,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .property-highlights-container .property-item {
     flex: auto;
     align-self: stretch;
-    margin: .32rem;
+    margin: 0 .64rem .64rem 0;
     padding: .72rem 1rem;
     border: 1px solid var(--vb-border-color);
 }
@@ -42,6 +44,10 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .property-highlights-container .property-title {
     margin-left: 1rem;
     font-size: 1.1rem;
+}
+
+.property-highlights-container .property-item:hover {
+    border: 1px solid var(--vb-box-shadow-color);
 }
 
 .property-container .property-item {
