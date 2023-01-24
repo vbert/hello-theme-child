@@ -12,9 +12,10 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 :root {
-    --vb-box-shadow-color: #999;
     --vb-border-color: #e7e7e7;
-    --vb-border-color-hover: #c5a64d;
+    --vb-border-color-hover: #999;
+    --vb-title-color: #777;
+    --vb-title-color-hover: #444;
 }
 
 .property-container,
@@ -29,13 +30,14 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .property-item {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .property-highlights-container .property-item {
     flex: auto;
-    align-self: stretch;
+    /* align-self: stretch; */
     margin: 0 .64rem .64rem 0;
     padding: .72rem 1rem;
     border: 1px solid var(--vb-border-color);
@@ -43,11 +45,17 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 .property-highlights-container .property-title {
     margin-left: 1rem;
+    color: var(--vb-title-color);
     font-size: 1.1rem;
 }
 
+.property-highlights-container .property-title.property-title-or {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
 .property-highlights-container .property-item:hover {
-    border: 1px solid var(--vb-box-shadow-color);
+    border: 1px solid var(--vb-border-color-hover);
 }
 
 .property-container .property-item {
@@ -57,11 +65,16 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .property-container .property-ico {
     flex: auto;
     align-self: stretch;
-    margin-right: .32rem;
+    margin-right: .2rem;
 }
 
 .property-container .property-title {
+    color: var(--vb-title-color);
     font-size: 1rem;
+}
+
+.property-container .property-item:hover .property-title {
+    color: var(--vb-title-color-hover);
 }
 
 .ico {
