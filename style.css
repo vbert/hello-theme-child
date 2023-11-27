@@ -5,7 +5,7 @@ Description: Hello Elementor Child is a child theme of Hello Elementor, created 
 Author: vbert
 Author URI: https://vbert.pl
 Template: hello-elementor
-Version: 1.0.0
+Version: 1.0.2
 Text Domain: hello-elementor-child
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -16,6 +16,10 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
     --vb-border-color-hover: #999;
     --vb-title-color: #777;
     --vb-title-color-hover: #444;
+}
+
+.elementor-button {
+    color: #fff;
 }
 
 .property-container,
@@ -179,3 +183,8 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .ico-tv-y {background-image: url('assets/img/icons8/yellow/tv.png')}
 .ico-wardrobe-y {background-image: url('assets/img/icons8/yellow/wardrobe.png')}
 .ico-wifi-y {background-image: url('assets/img/icons8/yellow/wifi.png')}
+
+/* Menu mobilne */
+.elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    z-index: 300 !important;
+}
